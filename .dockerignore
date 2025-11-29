@@ -1,0 +1,26 @@
+# Exclude build outputs
+target/
+*.class
+
+# Exclude IDE files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Exclude Git
+.git/
+.gitignore
+.gitattributes
+
+# Exclude documentation
+*.md
+HELP.md
+
+# Exclude Docker files
+Dockerfile
+.dockerignore
+
+# Exclude logs
+*.log
+logs/
